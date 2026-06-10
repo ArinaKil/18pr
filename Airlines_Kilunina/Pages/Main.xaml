@@ -19,7 +19,7 @@
                 <Image Source="/Images/plane.png" Height="40" Width="40" Margin="0,0,8,0"/>
                 <TextBlock Text="Управление авиалиниями" Foreground="White" FontSize="16" VerticalAlignment="Center"/>
             </StackPanel>
-            <Button Content="Выход" HorizontalAlignment="Right" VerticalAlignment="Center"
+            <Button Content="Выход" Click="Exit" HorizontalAlignment="Right" VerticalAlignment="Center"
                     Background="White" Foreground="#1565C0" FontSize="13" FontWeight="SemiBold"
                     Padding="16,6" BorderThickness="0" Cursor="Hand"/>
         </Grid>
@@ -37,12 +37,12 @@
                        FontSize="13" TextAlignment="Center" Margin="0,0,0,24"/>
 
             <TextBlock Text="Откуда:" Foreground="White" FontSize="13" Margin="0,0,0,4"/>
-            <TextBox Height="32" Padding="8,4" FontSize="13" BorderThickness="0" Margin="0,0,0,14"/>
+            <TextBox x:Name="from" Height="32" Padding="8,4" FontSize="13" BorderThickness="0" Margin="0,0,0,14"/>
 
             <TextBlock Text="Куда:" Foreground="White" FontSize="13" Margin="0,0,0,4"/>
-            <TextBox Height="32" Padding="8,4" FontSize="13" BorderThickness="0" Margin="0,0,0,20"/>
+            <TextBox x:Name="to" Height="32" Padding="8,4" FontSize="13" BorderThickness="0" Margin="0,0,0,20"/>
 
-            <Button Content="Найти" HorizontalAlignment="Right"
+            <Button Content="Найти" Click="Search" HorizontalAlignment="Right"
                     Background="#F44336" Foreground="White" FontSize="14" FontWeight="SemiBold"
                     Padding="24,8" BorderThickness="0" Cursor="Hand"/>
         </StackPanel>

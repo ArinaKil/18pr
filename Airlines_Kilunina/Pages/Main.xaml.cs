@@ -15,14 +15,21 @@ using System.Windows.Shapes;
 
 namespace Airlines_Kilunina.Pages
 {
-    /// <summary>
-    /// Логика взаимодействия для Main.xaml
-    /// </summary>
     public partial class Main : Page
     {
         public Main()
         {
             InitializeComponent();
+        }
+
+        private void Exit(object sender, RoutedEventArgs e)
+        {
+            mainWindow.Close();
+        }
+
+        private void Search(object sender, RoutedEventArgs e)
+        {
+            mainWindow.frame.Navigate(new Pages.Tickets(mainWindow, from.Text, to.Text));
         }
     }
 }
