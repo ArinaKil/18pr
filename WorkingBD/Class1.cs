@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 
 namespace WorkingBD
 {
-    public class Class1
+    public class WorkingBD
     {
+        public static MySqlDataReader Query(string sql, MySqlConnection connection)
+        {
+            MySqlCommand cmd = new MySqlCommand(sql, connection);
+            return cmd.ExecuteReader();
+        }
     }
 }

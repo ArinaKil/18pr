@@ -24,12 +24,12 @@ namespace Airlines_Kilunina.Pages
 
         private void Exit(object sender, RoutedEventArgs e)
         {
-            mainWindow.Close();
+            MainWindow.mainWindow.Close();
         }
 
         private void Search(object sender, RoutedEventArgs e)
         {
-            mainWindow.frame.Navigate(new Pages.Tickets(mainWindow, from.Text, to.Text));
+            MainWindow.mainWindow.frame.Navigate(new Ticket(from.Text, to.Text));
         }
     }
 }
