@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Airlines_Kilunina.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,11 +16,9 @@ using System.Windows.Shapes;
 
 namespace Airlines_Kilunina
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        public List<TicketClass> ticketClasses = new List<TicketClass>();
         public MainWindow()
         {
             InitializeComponent();

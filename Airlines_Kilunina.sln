@@ -5,6 +5,8 @@ VisualStudioVersion = 18.5.11723.231 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airlines_Kilunina", "Airlines_Kilunina\Airlines_Kilunina.csproj", "{9F1BF7CE-3684-4DC2-B781-C8801AEA0B37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingBD", "WorkingBD\WorkingBD.csproj", "{D046117E-DB81-4DCD-822B-E9914EBF6104}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9F1BF7CE-3684-4DC2-B781-C8801AEA0B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F1BF7CE-3684-4DC2-B781-C8801AEA0B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F1BF7CE-3684-4DC2-B781-C8801AEA0B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D046117E-DB81-4DCD-822B-E9914EBF6104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D046117E-DB81-4DCD-822B-E9914EBF6104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D046117E-DB81-4DCD-822B-E9914EBF6104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D046117E-DB81-4DCD-822B-E9914EBF6104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
