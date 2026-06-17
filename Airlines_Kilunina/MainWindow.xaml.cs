@@ -39,7 +39,7 @@ namespace Airlines_Kilunina
         public void LoadTickets()
         {
             ticketClasses.Clear();
-            string connection = "server=localhost;port=3306;database=Airlines;uid=root;pwd=;";
+            string connection = "server=localhost;port=3307;database=Airlines;uid=root;pwd=;";
             MySqlConnection mySqlConnection = new MySqlConnection(connection);
             mySqlConnection.Open();
 
